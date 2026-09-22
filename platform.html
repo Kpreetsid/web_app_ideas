@@ -1,60 +1,83 @@
 <!DOCTYPE html>
 <html lang="en" data-page="platform">
 <head>
-  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Presage Platform — The Reliability Loop</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Presage System — Reliability Architecture</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-  <div class="cursor" aria-hidden="true"></div><div class="cursor-dot" aria-hidden="true"></div>
-  <div class="page-noise" aria-hidden="true"></div><div class="grid" aria-hidden="true"></div>
-  <header class="topbar">
-    <a class="brand" href="index.html"><span class="brand-mark"><i></i><i></i><i></i><i></i></span><span>PRESAGE</span><small>RELIABILITY CLOUD</small></a>
-    <nav class="desktop-nav"><a class="active" href="platform.html">Platform</a><a href="solutions.html">Outcomes</a><a href="integrations.html">Integrations</a></nav>
-    <div class="top-actions"><a class="back-home" href="index.html">HOME ↗</a><button class="menu-button" type="button"><span>EXPLORE</span><span class="menu-dot"></span></button></div>
-  </header>
-  <main class="experience-page platform-stage">
-    <div class="page-title">
-      <span>THE PRESAGE RELIABILITY LOOP</span>
-      <h1>Reliability is a <em>closed loop.</em></h1>
-      <p>Monitoring only creates data. Reliability happens when insight becomes action — and the result of that action becomes the next piece of intelligence.</p>
-    </div>
-    <section class="loop-canvas" aria-live="polite">
-      <div class="loop-rings" aria-hidden="true"><i></i><i></i><i></i></div>
-      <div class="loop-center">
-        <small id="loopIndex">01 / 05</small>
-        <h2 id="loopTitle">Monitor</h2>
-        <p id="loopCopy">Capture the signals that describe how an asset is actually behaving — continuously or periodically, depending on criticality.</p>
-        <div class="loop-proof" id="loopProof"><span>Vibration</span><span>Temperature</span><span>MCSA</span><span>Existing plant data</span></div>
-      </div>
-      <button class="loop-node loop-n1 is-active" data-loop="0"><b>01</b><span>Monitor</span></button>
-      <button class="loop-node loop-n2" data-loop="1"><b>02</b><span>Understand</span></button>
-      <button class="loop-node loop-n3" data-loop="2"><b>03</b><span>Decide</span></button>
-      <button class="loop-node loop-n4" data-loop="3"><b>04</b><span>Act</span></button>
-      <button class="loop-node loop-n5" data-loop="4"><b>05</b><span>Improve</span></button>
-    </section>
-    <aside class="layer-rail">
-      <span class="rail-title">PLATFORM LAYERS</span>
-      <a href="#" data-loop="0"><i>01</i><strong>Machine Health</strong><small>Condition + electrical signals</small></a>
-      <a href="#" data-loop="1"><i>02</i><strong>Operational Intelligence</strong><small>Process + operating context</small></a>
-      <a href="#" data-loop="2"><i>03</i><strong>Reliability AI</strong><small>Diagnosis + prioritization</small></a>
-      <a href="#" data-loop="3"><i>04</i><strong>Maintenance Intelligence</strong><small>CMMS + work execution</small></a>
-      <a href="#" data-loop="4"><i>05</i><strong>Learning Loop</strong><small>History + validated outcomes</small></a>
-    </aside>
-    <a class="page-next" href="solutions.html"><span>NEXT / OUTCOMES</span><b>What changes for your team? →</b></a>
-  </main>
-  <aside class="index-panel" aria-hidden="true">
-    <button class="panel-close">CLOSE ×</button>
-    <div class="panel-intro"><p>PRESAGE / RELIABILITY CLOUD</p><div class="panel-word">ONE<br>RELIABILITY<br>LOOP.</div></div>
-    <nav class="panel-links">
-      <a href="index.html"><span>01</span><strong>Home</strong><small>Reliability, not hardware.</small></a>
-      <a href="platform.html"><span>02</span><strong>Platform</strong><small>The closed-loop reliability system.</small></a>
-      <a href="solutions.html"><span>03</span><strong>Outcomes</strong><small>Problems worth solving.</small></a>
-      <a href="integrations.html"><span>04</span><strong>Integrations</strong><small>Connect your plant data.</small></a>
-    </nav>
+<body class="command-site subpage">
+  <div class="scanline" aria-hidden="true"></div><div class="grain" aria-hidden="true"></div>
+  <aside class="left-rail">
+    <a class="rail-logo" href="index.html"><span>P</span><i></i><span>R</span></a>
+    <div class="rail-code">SYS / 01</div><div class="rail-progress"><span style="height:42%"></span></div><div class="rail-orientation">SYSTEM / ARCHITECTURE</div>
   </aside>
+  <header class="command-header">
+    <div class="command-brand"><strong>PRESAGE</strong><span>RELIABILITY CLOUD</span></div>
+    <nav class="command-nav"><a href="index.html">Command</a><a class="is-active" href="platform.html">System</a><a href="solutions.html">Outcomes</a><a href="integrations.html">Connect</a></nav>
+    <a class="header-cta" href="solutions.html"><span>NEXT / OUTCOMES</span><b>↗</b></a>
+  </header>
+
+  <main class="system-page">
+    <section class="system-intro">
+      <div class="system-number">SYSTEM / 01</div>
+      <h1>One reliability system.<br><span>Five connected jobs.</span></h1>
+      <p>Presage is designed as a continuous operating loop, not a collection of disconnected dashboards.</p>
+    </section>
+
+    <section class="system-stack">
+      <button class="system-band is-active" data-system="0">
+        <span class="band-index">01</span>
+        <strong>OBSERVE</strong>
+        <p>Capture condition and operational signals.</p>
+        <b>VIB / TEMP / MCSA / PLC</b>
+      </button>
+      <button class="system-band" data-system="1">
+        <span class="band-index">02</span>
+        <strong>UNDERSTAND</strong>
+        <p>Correlate signals with machine context.</p>
+        <b>FAULTS / BASELINES / MODES</b>
+      </button>
+      <button class="system-band" data-system="2">
+        <span class="band-index">03</span>
+        <strong>DECIDE</strong>
+        <p>Prioritize what deserves action.</p>
+        <b>SEVERITY / CRITICALITY / EVIDENCE</b>
+      </button>
+      <button class="system-band" data-system="3">
+        <span class="band-index">04</span>
+        <strong>ACT</strong>
+        <p>Carry insight into maintenance execution.</p>
+        <b>CMMS / WORK / RECOMMENDATIONS</b>
+      </button>
+      <button class="system-band" data-system="4">
+        <span class="band-index">05</span>
+        <strong>LEARN</strong>
+        <p>Use outcomes to improve future decisions.</p>
+        <b>HISTORY / VALIDATION / BAD ACTORS</b>
+      </button>
+    </section>
+
+    <aside class="system-detail">
+      <div class="detail-head"><span id="systemStep">STEP / 01</span><b id="systemState">OBSERVE</b></div>
+      <h2 id="systemTitle">Build a trustworthy picture of machine condition.</h2>
+      <p id="systemCopy">Presage can ingest its own sensor data and plant-provided signals so reliability starts with the asset, not with a hardware boundary.</p>
+      <div class="detail-metrics" id="systemMetrics">
+        <span><small>INPUT</small><strong>Condition</strong></span>
+        <span><small>INPUT</small><strong>Electrical</strong></span>
+        <span><small>INPUT</small><strong>Process</strong></span>
+      </div>
+      <div class="detail-next">SELECT A SYSTEM LAYER ON THE LEFT</div>
+    </aside>
+
+    <div class="system-footer">
+      <span>ARCHITECTURE / CLOSED LOOP</span>
+      <a href="solutions.html">SEE RELIABILITY OUTCOMES →</a>
+    </div>
+  </main>
   <script src="script.js"></script>
 </body>
 </html>
