@@ -1,33 +1,40 @@
-# Presage Website Concept
+# Presage Website Concept 03 — Reliability Atlas
 
-Experimental website concept for **Presage Reliability Cloud**.
+Branch: `concept-03-editorial-atlas`
+
+A third, deliberately different website direction for Presage.
+
+## Design direction
+
+This concept treats the website like a **living industrial field guide / editorial atlas** rather than a landing page or dashboard.
+
+Visual language:
+- warm paper / print-inspired surfaces
+- serif editorial typography mixed with clean sans-serif annotations
+- two-page spreads
+- page numbers, figure labels, margin notes and technical plates
+- asymmetrical magazine composition
+- chapter tabs instead of conventional scrolling navigation
+- interactive “page turns”
+- diagrams and specimen-style machine evidence
+- no dark command deck
+- no orbit/spatial UI
+- no standard feature-card stack
 
 ## Positioning
 
-Presage is presented as an **Industrial Reliability Intelligence Platform** rather than a hardware-first predictive maintenance company.
+Presage remains positioned as an **industrial reliability intelligence platform**.
 
-Core story:
+Narrative:
+**Evidence → Context → Action → Learning**
 
-**Monitor → Understand → Decide → Act → Improve**
-
-The website intentionally treats sensors as one input layer within a wider reliability system that combines:
-
-- Machine Health
-- Vibration + Temperature
-- MCSA / Electrical Intelligence
-- PLC / SCADA / Process Context
-- Reliability AI
-- Maintenance Intelligence / CMMS
-- Integrations and existing plant data
-- Closed-loop reliability learning
+Hardware appears only as one input layer within the larger reliability story.
 
 ## Pages
 
-- `index.html` — Reliability-first home experience
-- `platform.html` — Interactive Reliability Loop
-- `solutions.html` — Reliability problems and team outcomes
-- `integrations.html` — Plant data and enterprise integration map
+- `index.html` — interactive Reliability Atlas
+- `platform.html` — System Field Guide
+- `solutions.html` — Reliability Casebook
+- `integrations.html` — Reliability Exchange
 
-## Run
-
-Open `index.html` in a browser. No build step or framework is required.
+No framework or build step is required.
