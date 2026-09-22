@@ -1,33 +1,49 @@
-# Presage Website Concept
+# Presage Website Concept 02 — Reliability Command Deck
 
-Experimental website concept for **Presage Reliability Cloud**.
+This branch is a **completely separate visual direction** for Presage.
+
+Branch: `concept-02-command-deck`
+
+## Design direction
+
+Unlike the first spatial / organic concept, this version uses:
+
+- dark industrial editorial styling
+- rigid rectangular geometry
+- horizontal full-screen scene navigation
+- command-console / telemetry visual language
+- oversized typography
+- high-density reliability information
+- no floating organic blobs
+- no orbit navigation
+- no conventional vertical landing-page stack
 
 ## Positioning
 
-Presage is presented as an **Industrial Reliability Intelligence Platform** rather than a hardware-first predictive maintenance company.
+Presage is still positioned as an **industrial reliability intelligence platform**, not a hardware-first predictive-maintenance company.
 
-Core story:
+Core narrative:
 
-**Monitor → Understand → Decide → Act → Improve**
+**Observe → Understand → Decide → Act → Learn**
 
-The website intentionally treats sensors as one input layer within a wider reliability system that combines:
-
-- Machine Health
-- Vibration + Temperature
-- MCSA / Electrical Intelligence
-- PLC / SCADA / Process Context
-- Reliability AI
-- Maintenance Intelligence / CMMS
-- Integrations and existing plant data
-- Closed-loop reliability learning
+Hardware and sensing appear only as input layers within the larger reliability system.
 
 ## Pages
 
-- `index.html` — Reliability-first home experience
-- `platform.html` — Interactive Reliability Loop
-- `solutions.html` — Reliability problems and team outcomes
-- `integrations.html` — Plant data and enterprise integration map
+- `index.html` — horizontal Reliability Command Deck
+- `platform.html` — five-layer reliability system architecture
+- `solutions.html` — outcome matrix for reliability work
+- `integrations.html` — industrial plant data bus / integration topology
 
-## Run
+## Controls
 
-Open `index.html` in a browser. No build step or framework is required.
+Desktop home page:
+- Mouse wheel
+- Arrow keys
+- Right-side section selector
+- Inline next controls
+
+Mobile:
+- Converts to a normal vertical reading flow for usability.
+
+No build step is required. Open `index.html` directly in a browser.
