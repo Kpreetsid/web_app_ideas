@@ -1,61 +1,61 @@
 <!DOCTYPE html>
-<html lang="en" data-page="solutions">
+<html lang="en" data-page="cases">
 <head>
   <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Presage Outcomes — Reliability Work That Closes the Loop</title>
+  <title>Presage — Reliability Casebook</title>
   <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Libre+Caslon+Display&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-  <div class="cursor" aria-hidden="true"></div><div class="cursor-dot" aria-hidden="true"></div>
-  <div class="page-noise" aria-hidden="true"></div><div class="grid" aria-hidden="true"></div>
-  <header class="topbar">
-    <a class="brand" href="index.html"><span class="brand-mark"><i></i><i></i><i></i><i></i></span><span>PRESAGE</span><small>RELIABILITY CLOUD</small></a>
-    <nav class="desktop-nav"><a href="platform.html">Platform</a><a class="active" href="solutions.html">Outcomes</a><a href="integrations.html">Integrations</a></nav>
-    <div class="top-actions"><a class="back-home" href="index.html">HOME ↗</a><button class="menu-button" type="button"><span>EXPLORE</span><span class="menu-dot"></span></button></div>
+<body class="atlas-body inner-page">
+  <div class="paper-grain" aria-hidden="true"></div>
+  <header class="atlas-header">
+    <a class="atlas-brand" href="index.html"><span class="brand-symbol">P</span><strong>PRESAGE</strong><small>RELIABILITY ATLAS / 2026</small></a>
+    <nav class="atlas-nav"><a href="index.html">Atlas</a><a href="platform.html">System</a><a class="active" href="solutions.html">Cases</a><a href="integrations.html">Exchange</a></nav>
+    <div class="issue-mark">PLATE 03 / CASEBOOK</div>
   </header>
-  <main class="experience-page outcome-stage">
-    <div class="page-title outcome-title">
-      <span>RELIABILITY / IN PRACTICE</span>
-      <h1>Stop managing <em>alerts.</em><br>Start managing <em>reliability.</em></h1>
-    </div>
-    <section class="problem-orbit" aria-live="polite">
-      <div class="problem-core">
-        <small id="problemKicker">PROBLEM / 01</small>
-        <h2 id="problemTitle">Too many signals.<br>Not enough certainty.</h2>
-        <p id="problemCopy">Bring vibration, electrical behavior, operating state and maintenance history into the same diagnostic context instead of asking teams to interpret each source alone.</p>
-        <div class="problem-shift"><span>SHIFT</span><strong id="problemShift">From isolated alarms → contextual machine diagnosis</strong></div>
-      </div>
-      <button class="problem-node p1 is-active" data-problem="0"><span>01</span><b>Signal overload</b></button>
-      <button class="problem-node p2" data-problem="1"><span>02</span><b>False urgency</b></button>
-      <button class="problem-node p3" data-problem="2"><span>03</span><b>Broken handoff</b></button>
-      <button class="problem-node p4" data-problem="3"><span>04</span><b>Repeated failures</b></button>
+
+  <main class="casebook-page">
+    <header class="casebook-title">
+      <span>RELIABILITY CASEBOOK</span>
+      <h1>Not features.<br><em>Problems worth solving.</em></h1>
+    </header>
+
+    <section class="case-grid">
+      <button class="case-tile active" data-case="0">
+        <span>CASE 01</span><strong>Signal overload</strong><small>ALARM → DIAGNOSIS</small>
+      </button>
+      <button class="case-tile" data-case="1">
+        <span>CASE 02</span><strong>False urgency</strong><small>THRESHOLD → PRIORITY</small>
+      </button>
+      <button class="case-tile" data-case="2">
+        <span>CASE 03</span><strong>Broken handoff</strong><small>ALERT → WORK</small>
+      </button>
+      <button class="case-tile" data-case="3">
+        <span>CASE 04</span><strong>Repeated failure</strong><small>FIX → LEARN</small>
+      </button>
     </section>
-    <aside class="asset-strip">
-      <span>DESIGNED FOR ROTATING EQUIPMENT RELIABILITY</span>
-      <div><b>Motor</b><b>Pump</b><b>Fan</b><b>Compressor</b><b>Gearbox</b><b>Conveyor</b></div>
-      <small>Coverage can combine Presage sensing with existing plant data, depending on the asset and use case.</small>
-    </aside>
-    <div class="role-switcher">
-      <span>ONE SYSTEM / DIFFERENT QUESTIONS</span>
-      <button class="role-chip is-active" data-role="reliability">Reliability</button>
-      <button class="role-chip" data-role="maintenance">Maintenance</button>
-      <button class="role-chip" data-role="operations">Operations</button>
-      <p id="roleCopy">Which assets are becoming bad actors, why are they failing, and what evidence supports the diagnosis?</p>
-    </div>
-    <a class="page-next" href="integrations.html"><span>NEXT / INTEGRATIONS</span><b>See how plant context enters Presage →</b></a>
+
+    <section class="case-feature">
+      <div class="case-number" id="caseNumber">01</div>
+      <div class="case-content">
+        <span id="caseLabel">SIGNAL OVERLOAD</span>
+        <h2 id="caseTitle">Stop asking engineers to assemble the machine story manually.</h2>
+        <p id="caseCopy">Bring vibration, electrical behavior, operating state and maintenance history into the same diagnostic context.</p>
+        <blockquote id="caseQuestion">“What is actually wrong with this asset?”</blockquote>
+      </div>
+      <div class="case-shift">
+        <small>THE SHIFT</small>
+        <strong id="caseShift">From isolated alarms<br>to contextual diagnosis.</strong>
+      </div>
+    </section>
+
+    <footer class="casebook-footer">
+      <span>ROTATING EQUIPMENT / MOTORS / PUMPS / FANS / COMPRESSORS / GEARBOXES</span>
+      <a href="integrations.html">NEXT / EXCHANGE →</a>
+    </footer>
   </main>
-  <aside class="index-panel" aria-hidden="true">
-    <button class="panel-close">CLOSE ×</button>
-    <div class="panel-intro"><p>PRESAGE / RELIABILITY CLOUD</p><div class="panel-word">LESS<br>NOISE.<br>MORE ACTION.</div></div>
-    <nav class="panel-links">
-      <a href="index.html"><span>01</span><strong>Home</strong><small>Reliability, not hardware.</small></a>
-      <a href="platform.html"><span>02</span><strong>Platform</strong><small>The closed-loop reliability system.</small></a>
-      <a href="solutions.html"><span>03</span><strong>Outcomes</strong><small>Problems worth solving.</small></a>
-      <a href="integrations.html"><span>04</span><strong>Integrations</strong><small>Connect your plant data.</small></a>
-    </nav>
-  </aside>
+
   <script src="script.js"></script>
 </body>
 </html>
