@@ -1,61 +1,89 @@
 <!DOCTYPE html>
 <html lang="en" data-page="solutions">
 <head>
-  <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>Presage Outcomes — Reliability Work That Closes the Loop</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Presage Outcomes — Reliability Work</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
-  <div class="cursor" aria-hidden="true"></div><div class="cursor-dot" aria-hidden="true"></div>
-  <div class="page-noise" aria-hidden="true"></div><div class="grid" aria-hidden="true"></div>
-  <header class="topbar">
-    <a class="brand" href="index.html"><span class="brand-mark"><i></i><i></i><i></i><i></i></span><span>PRESAGE</span><small>RELIABILITY CLOUD</small></a>
-    <nav class="desktop-nav"><a href="platform.html">Platform</a><a class="active" href="solutions.html">Outcomes</a><a href="integrations.html">Integrations</a></nav>
-    <div class="top-actions"><a class="back-home" href="index.html">HOME ↗</a><button class="menu-button" type="button"><span>EXPLORE</span><span class="menu-dot"></span></button></div>
-  </header>
-  <main class="experience-page outcome-stage">
-    <div class="page-title outcome-title">
-      <span>RELIABILITY / IN PRACTICE</span>
-      <h1>Stop managing <em>alerts.</em><br>Start managing <em>reliability.</em></h1>
-    </div>
-    <section class="problem-orbit" aria-live="polite">
-      <div class="problem-core">
-        <small id="problemKicker">PROBLEM / 01</small>
-        <h2 id="problemTitle">Too many signals.<br>Not enough certainty.</h2>
-        <p id="problemCopy">Bring vibration, electrical behavior, operating state and maintenance history into the same diagnostic context instead of asking teams to interpret each source alone.</p>
-        <div class="problem-shift"><span>SHIFT</span><strong id="problemShift">From isolated alarms → contextual machine diagnosis</strong></div>
-      </div>
-      <button class="problem-node p1 is-active" data-problem="0"><span>01</span><b>Signal overload</b></button>
-      <button class="problem-node p2" data-problem="1"><span>02</span><b>False urgency</b></button>
-      <button class="problem-node p3" data-problem="2"><span>03</span><b>Broken handoff</b></button>
-      <button class="problem-node p4" data-problem="3"><span>04</span><b>Repeated failures</b></button>
-    </section>
-    <aside class="asset-strip">
-      <span>DESIGNED FOR ROTATING EQUIPMENT RELIABILITY</span>
-      <div><b>Motor</b><b>Pump</b><b>Fan</b><b>Compressor</b><b>Gearbox</b><b>Conveyor</b></div>
-      <small>Coverage can combine Presage sensing with existing plant data, depending on the asset and use case.</small>
-    </aside>
-    <div class="role-switcher">
-      <span>ONE SYSTEM / DIFFERENT QUESTIONS</span>
-      <button class="role-chip is-active" data-role="reliability">Reliability</button>
-      <button class="role-chip" data-role="maintenance">Maintenance</button>
-      <button class="role-chip" data-role="operations">Operations</button>
-      <p id="roleCopy">Which assets are becoming bad actors, why are they failing, and what evidence supports the diagnosis?</p>
-    </div>
-    <a class="page-next" href="integrations.html"><span>NEXT / INTEGRATIONS</span><b>See how plant context enters Presage →</b></a>
-  </main>
-  <aside class="index-panel" aria-hidden="true">
-    <button class="panel-close">CLOSE ×</button>
-    <div class="panel-intro"><p>PRESAGE / RELIABILITY CLOUD</p><div class="panel-word">LESS<br>NOISE.<br>MORE ACTION.</div></div>
-    <nav class="panel-links">
-      <a href="index.html"><span>01</span><strong>Home</strong><small>Reliability, not hardware.</small></a>
-      <a href="platform.html"><span>02</span><strong>Platform</strong><small>The closed-loop reliability system.</small></a>
-      <a href="solutions.html"><span>03</span><strong>Outcomes</strong><small>Problems worth solving.</small></a>
-      <a href="integrations.html"><span>04</span><strong>Integrations</strong><small>Connect your plant data.</small></a>
-    </nav>
+<body class="command-site subpage">
+  <div class="scanline" aria-hidden="true"></div><div class="grain" aria-hidden="true"></div>
+  <aside class="left-rail">
+    <a class="rail-logo" href="index.html"><span>P</span><i></i><span>R</span></a>
+    <div class="rail-code">OUT / 02</div><div class="rail-progress"><span style="height:68%"></span></div><div class="rail-orientation">OUTCOMES / RELIABILITY</div>
   </aside>
+  <header class="command-header">
+    <div class="command-brand"><strong>PRESAGE</strong><span>RELIABILITY CLOUD</span></div>
+    <nav class="command-nav"><a href="index.html">Command</a><a href="platform.html">System</a><a class="is-active" href="solutions.html">Outcomes</a><a href="integrations.html">Connect</a></nav>
+    <a class="header-cta" href="integrations.html"><span>NEXT / CONNECT</span><b>↗</b></a>
+  </header>
+
+  <main class="outcomes-page">
+    <header class="outcomes-head">
+      <span>OUTCOMES / 02</span>
+      <h1>What should a reliability platform <em>actually change?</em></h1>
+      <p>Not more dashboards. Better decisions across reliability, maintenance and operations.</p>
+    </header>
+
+    <section class="outcome-matrix">
+      <div class="matrix-header">
+        <span>PROBLEM</span><span>SHIFT</span><span>WHAT CHANGES</span><span>OWNER</span>
+      </div>
+
+      <button class="matrix-row is-active" data-outcome="0">
+        <span><b>01</b> Signal overload</span>
+        <span>ALARM → DIAGNOSIS</span>
+        <span>Correlate machine evidence instead of reviewing channels one by one.</span>
+        <span>Reliability</span>
+      </button>
+
+      <button class="matrix-row" data-outcome="1">
+        <span><b>02</b> False urgency</span>
+        <span>THRESHOLD → PRIORITY</span>
+        <span>Use persistence, context and criticality to focus attention.</span>
+        <span>Reliability</span>
+      </button>
+
+      <button class="matrix-row" data-outcome="2">
+        <span><b>03</b> Broken handoff</span>
+        <span>ALERT → WORK</span>
+        <span>Preserve diagnosis and evidence through maintenance execution.</span>
+        <span>Maintenance</span>
+      </button>
+
+      <button class="matrix-row" data-outcome="3">
+        <span><b>04</b> Repeated failure</span>
+        <span>FIX → LEARN</span>
+        <span>Connect outcome history to recurring faults and bad actors.</span>
+        <span>Reliability</span>
+      </button>
+
+      <button class="matrix-row" data-outcome="4">
+        <span><b>05</b> Machine / process gap</span>
+        <span>SILO → CONTEXT</span>
+        <span>See how operating conditions interact with asset condition.</span>
+        <span>Operations</span>
+      </button>
+    </section>
+
+    <aside class="outcome-detail">
+      <div class="outcome-detail-code" id="outcomeCode">01 / SIGNAL OVERLOAD</div>
+      <h2 id="outcomeTitle">Stop asking engineers to assemble the story manually.</h2>
+      <p id="outcomeCopy">Bring vibration, electrical behavior, operating state and maintenance history into one diagnostic context.</p>
+      <div class="outcome-question">
+        <span>THE QUESTION PRESAGE SHOULD ANSWER</span>
+        <strong id="outcomeQuestion">What is actually wrong with this asset?</strong>
+      </div>
+    </aside>
+
+    <footer class="system-footer">
+      <span>OUTCOMES / DECISION QUALITY</span>
+      <a href="integrations.html">SEE HOW CONTEXT CONNECTS →</a>
+    </footer>
+  </main>
   <script src="script.js"></script>
 </body>
 </html>
